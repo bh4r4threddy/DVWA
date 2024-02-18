@@ -1,16 +1,16 @@
-#Project Overview:
+# Project Overview:
 
 This penetration testing project focuses on assessing the security of the Damn Vulnerable Web Application (DVWA).
 The objective is to identify and exploit vulnerabilities within DVWA to understand common security threats and improve defensive measures.
 Specific goals include identifying common web application vulnerabilities such as SQL injection, cross-site scripting (XSS), and command injection.
 
-#Methodology:
+# Methodology:
 
 The methodology for this penetration testing project follows a standard approach based on the Penetration Testing Execution Standard (PTES).
 The process includes several phases: reconnaissance, vulnerability scanning, exploitation, post-exploitation analysis, and reporting.
 Tools utilized during the penetration testing process include Nmap for network reconnaissance, Burp Suite for web application scanning, and Metasploit for exploitation.
 
-#DVWA Setup:
+# DVWA Setup:
 
 - DVWA was set up in a local virtual machine (VM) environment for testing purposes.
 - The version used is DVWA 1.10, deployed within a virtualized environment using VirtualBox.
@@ -22,7 +22,7 @@ Tools utilized during the penetration testing process include Nmap for network r
     Accessed DVWA through a web browser and logged in with default credentials (admin/password).
 
 
-#Conclusion:
+# Conclusion:
 
 This penetration testing project on the Damn Vulnerable Web Application (DVWA) has yielded valuable insights into the application's security landscape, uncovering various vulnerabilities that could pose significant risks if exploited. Through meticulous assessment and exploitation of vulnerabilities such as command execution, SQL injection, insufficient password policy, and the use of a deprecated hash function, we have gained a comprehensive understanding of the potential security threats facing DVWA.
 
